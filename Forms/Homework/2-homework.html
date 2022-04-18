@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      h1 {
+        display: inline-block;
+        width: 900px;
+        height: 30px;
+        text-align: center;
+      }
+      #formscssstyle {
+        width: 800px;
+        border-top: 1px solid;
+        border-bottom: 1px solid;
+        margin-bottom: 20px;
+      }
+      div label {
+        display: inline-block;
+        margin-top: 20px;
+      }
+      #personalinfo,
+      #personalemail {
+        display: inline-block;
+        width: 700px;
+        height: 30px;
+      }
+      #button1 {
+        width: 100px;
+        height: 30px;
+        background-color: blue;
+        color: white;
+        border: none;
+      }
+      #button2 {
+        width: 95px;
+        height: 28px;
+        background-color: white;
+        border: 1px solid;
+      }
+      span {
+        margin-bottom: 40px;
+        display: inline-block;
+        color: #555;
+        font-size: 12px;
+      }
+    </style>
+    <title>Homework #2</title>
+  </head>
+  <body>
+    <h1>Homework #2</h1>
+    <h3>Sign in</h3>
+    <form name="signin" action="/" autocomplete="off" method="post">
+      <div id="formscssstyle">
+        <label for="personalinfo">Full Name:</label>
+        <br />
+        <input type="text" id="personalinfo" placeholder="Enter full name" />
+        <br />
+        <label for="personalemail">Email address:</label>
+        <br />
+        <input type="email" id="personalemail" placeholder="Enter email" />
+        <br />
+        <label for="communicationform">Communication:</label>
+        <br />
+        <input type="checkbox" id="communicationform" /> Email
+        <br />
+        <input type="checkbox" id="communicationform" /> SMS
+        <br />
+        <input type="checkbox" id="communicationform" /> Phone
+        <br />
+        <label for="usergroup">User Group:</label>
+        <br />
+        <input type="radio" id="usergroup" name="usergroup" /> Sales Person
+        <input type="radio" id="usergroup" name="usergroup" /> Customer
+        <br />
+        <span>Please select user group</span>
+      </div>
+      <input type="submit" id="button1" />
+      <button id="button2">Cancel</button>
+    </form>
+  </body>
+</html>
