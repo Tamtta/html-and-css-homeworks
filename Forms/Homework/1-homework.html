@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      h1 {
+        display: inline-block;
+        width: 900px;
+        height: 30px;
+        text-align: center;
+      }
+      div {
+        width: 900px;
+        height: 60px;
+        justify-content: auto;
+      }
+      div label {
+        width: 150px;
+        height: 30px;
+        display: inline-block;
+        text-align: end;
+      }
+      div input {
+        width: 600px;
+        height: 30px;
+        display: inline-block;
+      }
+      div fieldset {
+        padding: 1px 2px;
+        width: 600px;
+        height: 30px;
+        display: inline-block;
+      }
+      label::before {
+        content: "* ";
+        color: red;
+      }
+      #checkbox-1 {
+        display: inline-block;
+        width: 400px;
+        height: 30px;
+        text-align: end;
+      }
+      button {
+        background-color: blue;
+        color: white;
+        width: 70px;
+        height: 30px;
+        text-align: center;
+      }
+      #button-cont {
+        display: inline-block;
+        width: 280px;
+        height: 30px;
+        text-align: end;
+      }
+      .selectcss {
+        width: 150px;
+        height: 25px;
+      }
+    </style>
+    <title>Homework #1</title>
+  </head>
+  <body>
+    <h1>Homework #1</h1>
+    <form id="formHomework-1" action="/" method="post" autocomplete="off">
+      <div>
+        <label for="phoneNumber">Phone:</label>
+        <input
+          type="tel"
+          id="phoneNumber"
+          name="phoneNumber"
+          minlength="9"
+          maxlength="12"
+          required
+        />
+      </div>
+      <div>
+        <label for="personsemail">E-mail:</label>
+        <input type="email" id="personsemail" name="personsemail" required />
+      </div>
+      <div>
+        <label for="personspassword">Password:</label>
+        <input
+          type="password"
+          id="personspassword"
+          name="personspassword"
+          required
+        />
+      </div>
+      <div>
+        <label for="conpersonspassword">Confirm Password:</label>
+        <input
+          type="password"
+          id="conpersonspassword"
+          name="conpersonspassword"
+          required
+        />
+      </div>
+      <div>
+        <label for="personsnickname">Nickname:</label>
+        <input
+          type="text"
+          id="personsnickname"
+          name="personsnickname"
+          required
+        />
+      </div>
+      <div>
+        <label for="personshabresidence">Habitual Residence:</label>
+        <fieldset id="personshabresidence">
+          <select name="countries" class="selectcss" required>
+            <option value="usa">USA</option>
+            <option value="georgia">Georgia</option>
+            <option value="germany">Germany</option>
+            <option value="france">France</option>
+          </select>
+          <select name="provinces" class="selectcss" required>
+            <option value="samegrelo">Samegrelo</option>
+            <option value="guria">Guria</option>
+            <option value="svaneti">Svaneti</option>
+            <option value="imereti">Imereti</option>
+          </select>
+          <select name="cities" class="selectcss" required>
+            <option value="tbilisi">Tbilisi</option>
+            <option value="zugdidi">Zugdidi</option>
+            <option value="batumi">Batumi</option>
+            <option value="kutaisi">Kutaisi</option>
+          </select>
+        </fieldset>
+      </div>
+      <div>
+        <label for="websitetext">Website:</label>
+        <input
+          type="url"
+          id="websitetext"
+          name="websitetext"
+          placeholder="website"
+        />
+      </div>
+      <container id="checkbox-1">
+        <input type="checkbox" required /> I have read the
+        <a href="https://www.google.com/">agreement</a>
+      </container>
+      <br />
+      <container id="button-cont">
+        <button>Register</button>
+      </container>
+    </form>
+  </body>
+</html>
