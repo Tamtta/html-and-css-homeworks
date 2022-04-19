@@ -60,6 +60,9 @@
         width: 150px;
         height: 25px;
       }
+      .paragraph {
+        display: inline;
+      }
     </style>
     <title>Homework #1</title>
   </head>
@@ -112,22 +115,27 @@
         <label for="personshabresidence">Habitual Residence:</label>
         <fieldset id="personshabresidence">
           <select name="countries" class="selectcss" required>
-            <option value="usa">USA</option>
             <option value="georgia">Georgia</option>
+            <option value="usa">USA</option>
             <option value="germany">Germany</option>
             <option value="france">France</option>
+            <option value="greece">Greece</option>
           </select>
+          <p class="paragraph">/</p>
           <select name="provinces" class="selectcss" required>
             <option value="samegrelo">Samegrelo</option>
             <option value="guria">Guria</option>
             <option value="svaneti">Svaneti</option>
             <option value="imereti">Imereti</option>
+            <option value="adjara">Adjara</option>
           </select>
+          <p class="paragraph">/</p>
           <select name="cities" class="selectcss" required>
-            <option value="tbilisi">Tbilisi</option>
             <option value="zugdidi">Zugdidi</option>
+            <option value="tbilisi">Tbilisi</option>
             <option value="batumi">Batumi</option>
             <option value="kutaisi">Kutaisi</option>
+            <option value="ozurgeti">Ozurgeti</option>
           </select>
         </fieldset>
       </div>
