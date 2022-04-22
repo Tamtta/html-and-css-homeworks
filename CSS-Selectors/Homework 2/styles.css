@@ -120,6 +120,7 @@ section > article {
 
 article > p {
   text-indent: 50px;
+  line-height: 30px;
 }
 
 #arsenal-link {
