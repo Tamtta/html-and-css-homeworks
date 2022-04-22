@@ -1,0 +1,135 @@
+.body-html {
+  background-color: rgba(14, 50, 16, 0.042);
+}
+
+h1 {
+  text-align: center;
+  font-size: 32px;
+  border: 5px solid rgba(14, 50, 16, 0.584);
+  margin-bottom: 70px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+nav {
+  margin-bottom: 50px;
+}
+
+nav > a,
+.backtomain {
+  display: inline-block;
+  margin-left: 50px;
+  font-size: 20px;
+  color: black;
+}
+
+a:hover {
+  color: rgba(14, 50, 16, 0.584);
+  cursor: pointer;
+  margin-left: 70px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+#footnews,
+#basknews {
+  margin-bottom: 100px;
+  border: 4px solid rgba(14, 50, 16, 0.584);
+}
+
+#footnews a,
+#basknews a {
+  color: black;
+}
+
+h3 {
+  font-size: 24px;
+  display: block;
+  margin-bottom: 30px;
+  text-align: center;
+  height: 50px;
+}
+
+h3:hover {
+  color: rgba(14, 50, 16, 0.584);
+  cursor: pointer;
+  margin-left: 70px;
+}
+
+.ul-css > li {
+  display: block;
+  margin-bottom: 20px;
+}
+
+footer {
+  border-top: 1px solid black;
+  height: 200px;
+  text-align: right;
+}
+
+.articlespageul > li {
+  display: block;
+  margin-bottom: 50px;
+  border: 2px solid rgba(14, 50, 16, 0.584);
+}
+
+.articlespageul > li:hover {
+  background-color: rgba(14, 50, 16, 0.398);
+  cursor: pointer;
+}
+
+#mainpageimg {
+  width: 100%;
+}
+
+main {
+  display: block;
+  margin-bottom: 300px;
+}
+
+header > img {
+  display: block;
+  margin: auto;
+}
+
+section {
+  border: 2px solid rgba(235, 241, 235, 0.584);
+  display: block;
+  width: 1200px;
+  margin: auto;
+  background-color: rgba(235, 241, 235, 0.25);
+}
+
+section > h2 {
+  text-align: center;
+}
+
+#arsenal-header {
+  margin-bottom: 100px;
+}
+
+section > article {
+  display: block;
+  margin-bottom: 70px;
+}
+
+article > p {
+  text-indent: 50px;
+}
+
+#arsenal-link {
+  display: block;
+  width: 1200px;
+  margin: auto;
+}
+
+#arsenal-link > a {
+  display: inline-block;
+  margin-right: 50px;
+  margin-bottom: 20px;
+}
