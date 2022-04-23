@@ -1,0 +1,64 @@
+.main-div-container {
+  border: 1px solid black;
+  display: inline-block;
+  width: 370px;
+  margin-left: 30px;
+}
+
+.main-div-container:first-child {
+  margin-left: 0;
+}
+
+.div-for-documents p {
+  display: inline-block;
+  margin-left: 20px;
+  font-size: 14px;
+}
+
+.div-for-documents > p {
+  margin-left: 0;
+}
+
+.div-for-documents span {
+  display: block;
+}
+
+.div-for-documents {
+  border-bottom: 1px solid black;
+  padding: 20px;
+}
+
+.div-for-icons {
+  padding: 20px 20px 0 20px;
+}
+
+.div-for-icons > img {
+  display: inline-block;
+  width: 20px;
+}
+
+#man-photo {
+  width: 250px;
+  height: 50px;
+  display: block;
+  margin-bottom: 40px;
+}
+
+#p-viewers {
+  display: inline-block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-bottom: 2px;
+}
+
+#files-p {
+  font-size: 30px;
+}
+
+.icon-margin {
+  margin-left: 20px;
+}
+
+#icon-viewers {
+  margin-left: 160px;
+}
