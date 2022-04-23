@@ -1,22 +1,28 @@
 div {
-  font-size: 24px;
-  text-align: center;
-}
-
-button {
-  padding: 10px;
+  display: inline-block;
   width: 150px;
   border-radius: 8px;
+  font-size: 24px;
   margin-left: 20px;
-  font-size: inherit;
-  text-align: inherit;
+  padding: 10px;
+  text-align: center;
   cursor: pointer;
 }
 
+button {
+  width: inherit;
+  border-radius: inherit;
+  font-size: inherit;
+  margin-left: inherit;
+  padding: inherit;
+  text-align: inherit;
+  cursor: inherit;
+}
+
 #primary {
-  background-color: blue;
+  background-color: rgba(0, 0, 255, 0.675);
   color: white;
-  border: 1px solid blue;
+  border: 1px solid rgba(0, 0, 255, 0.675);
 }
 
 #default {
