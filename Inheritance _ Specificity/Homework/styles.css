@@ -20,9 +20,9 @@ button {
 }
 
 #primary {
+  border: 1px solid rgba(0, 0, 255, 0.675);
   background-color: rgba(0, 0, 255, 0.675);
   color: white;
-  border: 1px solid rgba(0, 0, 255, 0.675);
 }
 
 #default {
@@ -39,6 +39,6 @@ button {
 
 #danger {
   border: 1px solid rgb(61, 61, 61);
+  background-color: rgba(233, 185, 185, 0.152);
   color: red;
-  background-color: rgba(252, 241, 241, 0.491);
 }
