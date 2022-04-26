@@ -1,5 +1,4 @@
-div {
-  display: inline-block;
+button {
   width: 150px;
   border-radius: 8px;
   font-size: 24px;
@@ -7,16 +6,9 @@ div {
   padding: 10px;
   text-align: center;
   cursor: pointer;
-}
-
-button {
-  width: inherit;
-  border-radius: inherit;
-  font-size: inherit;
-  margin-left: inherit;
-  padding: inherit;
-  text-align: inherit;
-  cursor: inherit;
+  border: 1px solid black;
+  background-color: white;
+  color: black;
 }
 
 #primary {
@@ -27,13 +19,11 @@ button {
 
 #default {
   border: 1px solid rgb(61, 61, 61);
-  background-color: white;
   color: rgb(61, 61, 61);
 }
 
 #dashed {
   border: 1px dashed rgb(61, 61, 61);
-  background-color: white;
   color: rgb(61, 61, 61);
 }
 
