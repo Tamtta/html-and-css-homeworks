@@ -8,12 +8,13 @@ h1 {
 h1:hover {
   background-color: azure;
   color: #04aa6d;
+  cursor: pointer;
 }
 
 a > button {
   width: 200px;
   height: 30px;
-  background-color: rgba(9, 245, 72, 0.157);
+  background-color: #d7e4dfb0;
   border: none;
   margin-bottom: 30px;
   text-align: center;
@@ -23,7 +24,7 @@ a > button {
 
 a > button:hover {
   cursor: pointer;
-  background-color: rgba(9, 245, 72, 0.701);
+  background-color: rgba(107, 168, 145, 0.615);
   width: 250px;
 }
 
@@ -63,4 +64,12 @@ a img {
 
 a img:hover {
   border: 10px solid rgba(107, 168, 145, 0.615);
+}
+
+.images {
+  display: block;
+  width: 50%;
+  height: 50%;
+  border: 10px solid rgb(118, 139, 113);
+  margin: 50px;
 }
