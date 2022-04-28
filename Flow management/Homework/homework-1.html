@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+
+      .container {
+        width: 600px;
+        height: 600px;
+        border: 6px solid black;
+        margin: 30px auto;
+      }
+
+      .cube {
+        border: 6px solid black;
+      }
+
+      .fl-left {
+        float: left;
+      }
+
+      .fl-right {
+        float: right;
+      }
+
+      .col-1,
+      .col-2,
+      .col-3,
+      .col-4 {
+        width: 50%;
+      }
+
+      .col-1,
+      .col-2 {
+        height: 36%;
+      }
+
+      .col-1 {
+        background-color: red;
+      }
+
+      .col-3,
+      .col-4 {
+        height: 20%;
+      }
+
+      .col-5,
+      .col-6,
+      .col-8 {
+        height: 44%;
+      }
+
+      .col-5 {
+        width: 10%;
+        background-color: yellow;
+      }
+
+      .col-6 {
+        width: 40%;
+      }
+
+      .col-7,
+      .col-9 {
+        width: 30%;
+        height: 22%;
+      }
+
+      .col-7 {
+        background-color: blue;
+      }
+
+      .col-8 {
+        width: 20%;
+      }
+    </style>
+    <title>Homework 1</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="cube col-1 fl-left"></div>
+      <div class="cube col-2 fl-right"></div>
+      <div class="cube col-3 fl-left"></div>
+      <div class="cube col-4 fl-right"></div>
+      <div class="cube col-5 fl-left"></div>
+      <div class="cube col-6 fl-left"></div>
+      <div class="cube col-7 fl-left"></div>
+      <div class="cube col-8 fl-right"></div>
+      <div class="cube col-9 fl-right"></div>
+    </div>
+  </body>
+</html>
