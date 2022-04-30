@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+
+      .container {
+        margin: 30px auto;
+        width: 940px;
+        height: 1060px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
+
+      .cube {
+        background-color: rgb(89, 14, 14);
+        width: 50px;
+        height: 220px;
+      }
+
+      .flex {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .flex-1 div {
+        width: 220px;
+        height: 220px;
+      }
+
+      .flex-2 div {
+        width: 100px;
+        height: 100px;
+      }
+
+      .flex-3 div {
+        width: 460px;
+      }
+
+      .size-large {
+        width: 700px;
+      }
+
+      .size-small {
+        width: 220px;
+      }
+    </style>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="flex flex-1">
+        <div class="cube"></div>
+        <div class="cube"></div>
+        <div class="cube"></div>
+        <div class="cube"></div>
+      </div>
+
+      <div class="flex flex-2">
+        <div class="cube"></div>
+        <div class="cube"></div>
+        <div class="cube"></div>
+        <div class="cube"></div>
+        <div class="cube"></div>
+        <div class="cube"></div>
+        <div class="cube"></div>
+        <div class="cube"></div>
+      </div>
+
+      <div class="flex">
+        <div class="cube size-large"></div>
+        <div class="cube size-small"></div>
+      </div>
+
+      <div class="flex">
+        <div class="cube size-small"></div>
+        <div class="cube size-large"></div>
+      </div>
+
+      <div class="flex flex-3">
+        <div class="cube"></div>
+        <div class="cube"></div>
+      </div>
+    </div>
+  </body>
+</html>

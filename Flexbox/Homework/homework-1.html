@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+
+      .container {
+        width: 600px;
+        height: 600px;
+        background-color: black;
+        margin: 30px auto;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+      }
+
+      .red {
+        background-color: red;
+      }
+
+      .yellow {
+        background-color: yellow;
+      }
+
+      .blue {
+        background-color: blue;
+      }
+
+      .white {
+        background-color: white;
+      }
+
+      .flex-1 div,
+      .flex-2 div {
+        width: 47%;
+      }
+
+      .flex {
+        display: flex;
+        justify-content: space-evenly;
+      }
+
+      .flex-1 {
+        height: 34%;
+      }
+
+      .flex-2 {
+        height: 18%;
+      }
+
+      .flex-3 {
+        height: 40%;
+      }
+
+      .inner-flex-1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 47%;
+      }
+
+      .inner-flex-1 div:first-child {
+        width: 18%;
+      }
+
+      .inner-flex-1 div:last-child {
+        width: 77%;
+      }
+
+      .inner-flex-2 {
+        display: flex;
+        justify-content: space-between;
+        width: 47%;
+      }
+
+      .first-child {
+        width: 59%;
+      }
+
+      .second-child {
+        width: 36%;
+      }
+
+      .inner-flex-3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: stretch;
+      }
+
+      .inner-flex-3 div {
+        height: 47.5%;
+      }
+    </style>
+    <title>Homework 1</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="flex flex-1">
+        <div class="red"></div>
+        <div class="white"></div>
+      </div>
+
+      <div class="flex flex-2">
+        <div class="white"></div>
+        <div class="white"></div>
+      </div>
+
+      <div class="flex flex-3">
+        <div class="inner-flex-1">
+          <div class="yellow"></div>
+          <div class="white"></div>
+        </div>
+        <div class="inner-flex-2">
+          <div class="inner-flex-3 first-child">
+            <div class="blue"></div>
+            <div class="white"></div>
+          </div>
+          <div class="second-child white"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
