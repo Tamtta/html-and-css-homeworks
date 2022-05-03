@@ -21,18 +21,6 @@
         flex-direction: column;
       }
 
-      .red {
-        background-color: red;
-      }
-
-      .yellow {
-        background-color: yellow;
-      }
-
-      .blue {
-        background-color: blue;
-      }
-
       .white {
         background-color: white;
       }
@@ -61,7 +49,6 @@
 
       .inner-flex-1 {
         display: flex;
-        flex-direction: row;
         justify-content: space-between;
         width: 47%;
       }
@@ -92,11 +79,14 @@
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        align-items: stretch;
       }
 
-      .inner-flex-3 div {
-        height: 47.5%;
+      .inner-flex-3 div:first-child {
+        height: 68%;
+      }
+
+      .inner-flex-3 div:last-child {
+        height: 27%;
       }
     </style>
     <title>Homework 1</title>
@@ -104,7 +94,7 @@
   <body>
     <div class="container">
       <div class="flex flex-1">
-        <div class="red"></div>
+        <div style="background-color: red"></div>
         <div class="white"></div>
       </div>
 
@@ -115,12 +105,12 @@
 
       <div class="flex flex-3">
         <div class="inner-flex-1">
-          <div class="yellow"></div>
+          <div style="background-color: yellow"></div>
           <div class="white"></div>
         </div>
         <div class="inner-flex-2">
           <div class="inner-flex-3 first-child">
-            <div class="blue"></div>
+            <div style="background-color: blue"></div>
             <div class="white"></div>
           </div>
           <div class="second-child white"></div>
