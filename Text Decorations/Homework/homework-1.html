@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Lobster&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      .container {
+        width: 1173.35px;
+        height: 1000px;
+        margin: 30px auto;
+        /* background-color: rgb(215, 215, 238); */
+      }
+
+      .cube {
+        width: 76px;
+        height: 76px;
+        background-color: #a1b1bc;
+        border: 3px solid white;
+        border-radius: 5px;
+        box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.245);
+      }
+
+      header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 40px;
+      }
+
+      h1 {
+        font-family: "Roboto", sans-serif;
+        font-size: 30px;
+        font-weight: normal;
+        color: #2c3e50;
+      }
+
+      h3 {
+        font-family: "Roboto", sans-serif;
+        font-size: 18px;
+        font-weight: normal;
+        color: #2c3e50;
+        margin-bottom: 7px;
+      }
+
+      span {
+        font-family: "Roboto", sans-serif;
+        font-size: 13px;
+        font-weight: normal;
+        color: #a1b1bc;
+      }
+
+      p {
+        font-family: "Roboto", sans-serif;
+        font-size: 14px;
+        font-style: italic;
+        color: #a1b1bc;
+        line-height: 1.8;
+      }
+
+      header > p {
+        font-family: "Roboto", sans-serif;
+        font-size: 16px;
+        font-weight: normal;
+        font-style: normal;
+        color: #a1b1bc;
+      }
+
+      .div-1 {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        height: 158px;
+        width: 1170px;
+        padding: 30px 30px 20px 30px;
+        border: 1px solid #ecf0f1;
+        margin-bottom: 25px;
+      }
+
+      .inner-div-1 {
+        position: relative;
+        width: 1000px;
+      }
+
+      .inner-div-for-span {
+        margin-bottom: 6px;
+      }
+
+      .after {
+        position: absolute;
+        top: 2px;
+        right: -2px;
+        font-family: "Roboto", sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        text-transform: uppercase;
+        width: 60px;
+        height: 24px;
+        background-color: #2c3e50;
+        border-radius: 3px;
+        color: white;
+        text-align: center;
+        font-weight: bold;
+      }
+
+      .mg-left {
+        margin-left: 50px;
+        width: 1120px;
+        padding-left: 50px;
+        margin-bottom: 20px;
+      }
+
+      .mg-left .inner-div-1 {
+        width: 933px;
+      }
+
+      .diff-height {
+        height: 204px;
+      }
+
+      .mg-bottom {
+        margin-bottom: 70px;
+      }
+
+      textarea {
+        width: 100%;
+        height: 300px;
+        margin-bottom: 18px;
+        border: 1px solid #ecf0f1;
+      }
+
+      .forms input {
+        width: 370px;
+        height: 50px;
+        font-family: "Roboto", sans-serif;
+        font-size: 14px;
+        color: #a1b1bc;
+        border: 1px solid #ecf0f1;
+        text-indent: 20px;
+      }
+
+      .forms {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+      }
+
+      button {
+        width: 190px;
+        height: 50px;
+        background-color: #2c3e50;
+        color: white;
+        font-family: "Roboto", sans-serif;
+        font-size: 15px;
+        font-style: normal;
+        border-radius: 5px;
+        border: 1px solid black;
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        text-align: center;
+      }
+
+      .diff-mg-bottom {
+        margin-bottom: 40px;
+      }
+
+      footer {
+        padding: 2px;
+      }
+
+      .color {
+        background-color: #f7f8f9;
+      }
+    </style>
+    <title>Homework 1</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>24 Comments</h1>
+        <p>Leave a Comment</p>
+      </header>
+      <main>
+        <div class="div-1 diff-height">
+          <div class="cube"></div>
+          <div class="inner-div-1">
+            <div class="inner-div-for-span">
+              <h3>John Doe</h3>
+              <span>March 23, 2017 at 7:59 pm</span>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
+              viverra euismod odio, gravida pellentesque urna varius vitae. Sed
+              dui lorem, adipiscing in adipiscing et, <br />
+              interdum nec metus. Lorem ipsum dolor sit amet, consectetur
+              adipiscing elit. Nam viverra euismod odio, gravida pellentesque
+              urna varius vitae. Sed dui lorem, adipiscing in adipiscing et,
+              interdum nec metus. Lorem ipsum dolor sit amet, consectetur
+              adipiscing elit. Nam viverra euismod odio, gravida pellentesque
+              urna varius vitae. Sed dui lorem, adipiscing in adipiscing et,
+              interdum nec metus. Lorem ipsum dolor sit amet, consectetur
+              adipiscing elit.
+            </p>
+            <p class="after">Reply</p>
+          </div>
+        </div>
+
+        <div class="div-1">
+          <div class="cube"></div>
+          <div class="inner-div-1">
+            <div class="inner-div-for-span">
+              <h3>Wjnd Heo Con</h3>
+              <span>March 23, 2017 at 7:59 pm</span>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
+              viverra euismod odio, gravida pellentesque urna varius vitae. Sed
+              dui lorem, adipiscing in adipiscing et, interdum nec metus. Lorem
+              ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra
+              euismod odio, gravida pellentesque urna varius vitae.
+            </p>
+            <p class="after">Reply</p>
+          </div>
+        </div>
+
+        <div class="div-1 mg-left">
+          <div class="cube"></div>
+          <div class="inner-div-1">
+            <div class="inner-div-for-span">
+              <h3>Tran Mau Tri Tam</h3>
+              <span>March 23, 2017 at 7:59 pm</span>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
+              viverra euismod odio, gravida pellentesque urna varius vitae. Sed
+              dui lorem, adipiscing in adipiscing et, interdum nec metus. Lorem
+              ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+            <p class="after">Reply</p>
+          </div>
+        </div>
+
+        <div class="div-1 mg-left">
+          <div class="cube"></div>
+          <div class="inner-div-1">
+            <div class="inner-div-for-span">
+              <h3>Sam Isbister</h3>
+              <span>March 23, 2017 at 7:59 pm</span>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
+              viverra euismod odio, gravida pellentesque urna varius vitae. Sed
+              dui lorem, adipiscing in adipiscing et, interdum nec metus. Lorem
+              ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+            <p class="after">Reply</p>
+          </div>
+        </div>
+
+        <div class="div-1">
+          <div class="cube"></div>
+          <div class="inner-div-1">
+            <div class="inner-div-for-span">
+              <h3>Sammy</h3>
+              <span>March 23, 2017 at 7:59 pm</span>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
+              viverra euismod odio, gravida pellentesque urna varius vitae. Sed
+              dui lorem, adipiscing in adipiscing et, interdum nec metus. Lorem
+              ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra
+              euismod odio, gravida pellentesque urna varius vitae.
+            </p>
+            <p class="after">Reply</p>
+          </div>
+        </div>
+
+        <div class="div-1 mg-bottom">
+          <div class="cube"></div>
+          <div class="inner-div-1">
+            <div class="inner-div-for-span">
+              <h3>UniedThemes</h3>
+              <span>March 23, 2017 at 7:59 pm</span>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
+              viverra euismod odio, gravida pellentesque urna varius vitae. Sed
+              dui lorem, adipiscing in adipiscing et, interdum nec metus. Lorem
+              ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra
+              euismod odio, gravida pellentesque urna varius vitae.
+            </p>
+            <p class="after">Reply</p>
+          </div>
+        </div>
+      </main>
+      <footer>
+        <h1 class="diff-mg-bottom">Leave A Comment</h1>
+        <form action="./" method="post">
+          <div class="forms">
+            <input type="text" placeholder="Name" class="color" />
+            <input type="email" placeholder="Email" />
+            <input type="url" placeholder="Website" class="color" />
+          </div>
+
+          <textarea class="color"></textarea>
+
+          <button>Submit Comment</button>
+        </form>
+      </footer>
+    </div>
+  </body>
+</html>
