@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      .container {
+        width: 940px;
+        height: 1060px;
+        margin: 30px auto;
+        display: grid;
+        gap: 20px;
+        grid-template: 1fr 100px repeat(3, 1fr) / repeat(8, 100px);
+      }
+
+      .container div {
+        background-color: #e1e1e1;
+      }
+
+      .col-2 {
+        grid-column: span 2;
+      }
+
+      .wide {
+        grid-column: span 6;
+      }
+
+      .same-size {
+        grid-column: span 4;
+      }
+    </style>
+    <title>Homework 2</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="col-2"></div>
+      <div class="col-2"></div>
+      <div class="col-2"></div>
+      <div class="col-2"></div>
+
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+
+      <div class="wide"></div>
+      <div class="col-2"></div>
+
+      <div class="col-2"></div>
+      <div class="wide"></div>
+
+      <div class="same-size"></div>
+      <div class="same-size"></div>
+    </div>
+  </body>
+</html>
